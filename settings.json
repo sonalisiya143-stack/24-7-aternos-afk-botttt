@@ -1,0 +1,88 @@
+{
+  "name": "Zeraya Bot",
+  "bot-account": {
+    "username": "ZerayaTheBot",
+    "password": "",
+    "type": "offline"
+  },
+  "server": {
+    "ip": "Zeraya.aternos.me",
+    "port": 56505,
+    "version": "1.21.11",
+    "try-creative": false
+  },
+  "position": {
+    "enabled": true,
+    "x": 0,
+    "y": 64,
+    "z": 0
+  },
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "Zeraya3472"
+    },
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true
+    },
+    "chat-messages": {
+      "enabled": false,
+      "repeat": false,
+      "repeat-delay": 1200,
+      "messages": [
+        "I'm a regular player",
+        "Subscribe to ZenTheCosmic!",
+        "I like to play Minecraft!"
+      ]
+    },
+    "chat-log": true,
+    "auto-reconnect": true,
+    "auto-reconnect-delay": 2000,
+    "max-reconnect-delay": 120000
+  },
+  "movement": {
+    "enabled": true,
+    "circle-walk": {
+      "enabled": true,
+      "radius": 4,
+      "speed": 5
+    },
+    "look-around": {
+      "enabled": true,
+      "interval": 5000
+    },
+    "random-jump": {
+      "enabled": true,
+      "interval": 10000
+    }
+  },
+  "modules": {
+    "avoidMobs": true,
+    "combat": true,
+    "beds": false,
+    "chat": true,
+    "console-commands": true
+  },
+  "combat": {
+    "attack-mobs": true,
+    "auto-eat": true
+  },
+  "beds": {
+    "pick-up-day": false,
+    "place-night": false
+  },
+  "discord": {
+    "enabled": true,
+    "webhookUrl":
+    "https://discord.com/api/webhooks/1494229228563071077/7bnKIIsBE_GTVZzSmETMQ_AvanAUBPSJTTtYM5-FRAzmC2qowid-RwaFfJVdPw013leN",
+    "events": {
+      "connect": true,
+      "disconnect": true,
+      "chat": true
+    }
+  },
+  "chat": {
+    "respond": false
+  }
+}

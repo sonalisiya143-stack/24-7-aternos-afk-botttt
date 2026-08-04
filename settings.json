@@ -9,7 +9,7 @@
     "ip": "Legendsmp-tBhW.aternos.me",
     "port": 63382,
     "version": "1.21.11",
-    "try-creative": falss},
+    "try-creative": false},
   "position": {
     "enabled": true,
     "x": 0,
